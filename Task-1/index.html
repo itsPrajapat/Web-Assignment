@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Sign Up</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<h1>Sign Up</h1>
+		<form id="signup-form">
+			<div class="form-control">
+				<label for="first-name">First Name</label>
+				<input type="text" id="first-name" required>
+			</div>
+			<div class="form-control">
+				<label for="last-name">Last Name</label>
+				<input type="text" id="last-name" required>
+			</div>
+			<div class="form-control">
+				<label for="email">Email</label>
+				<input type="email" id="email" required>
+			</div>
+			<div class="form-control">
+				<label for="username">Username (Upto 8 alphanumeric Characters)</label>
+				<input type="text" id="username" maxlength="8" pattern="[A-Za-z0-9]{1,8}" required>
+			</div>
+			<div class="form-control">
+				<label for="password">Password</label>
+				<input type="password" id="password" minlength="8" pattern="^(?=.*\d)(?=.*[!@#$%^&*])(?=.*[a-z])(?=.*[A-Z]).{8,}$" title=" (Upto 8 alphanumeric Characters, atleast 1 special character, atleast 1 Uppercase, atleast one lowercase)" required>
+			</div>
+			<button type="submit">Submit</button>
+		</form>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
