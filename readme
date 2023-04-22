@@ -1,0 +1,8 @@
+Task-2 : 
+    The code that I have run on the amamzon console is there in the script.js file of Task-2 folder and the api link is in the api_link.txt file.
+
+    Example of username and password is given below : 
+    {
+        userName: "Rahul789"
+        password: "PasswOrd@2"
+    }

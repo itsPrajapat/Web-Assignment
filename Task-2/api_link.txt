@@ -1,0 +1,1 @@
+https://67jguwwnhc.execute-api.ap-south-1.amazonaws.com/v1/verify
